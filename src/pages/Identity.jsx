@@ -6,7 +6,8 @@ export default function Identity() {
 
   return (
     <div>
-      <h2>Identity</h2>
+      <h2>🐝 Identity Module</h2>
+
       <input
         value={name}
         onChange={e => setName(e.target.value)}
