@@ -6,7 +6,8 @@ export default function Patterns() {
 
   return (
     <div>
-      <h2>Patterns</h2>
+      <h2>🐝 Patterns Module</h2>
+
       <input
         value={pattern}
         onChange={e => setPattern(e.target.value)}
